@@ -31,6 +31,38 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+/* Added header and navigation CSS */
+#header {
+    display: flex;
+    justify-content: row;
+    margin: 2% 10% 3% 10%;
+}
+#header img {
+margin-right: 5%;
+}
+.nav {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.nav button {
+    border: none;
+    font-size: 1em;
+}
+/* End */
+
+/* Added hero css */
+#hero {
+display: flex;
+justify-content: center; 
+}
+#hero img {
+    width: 80%;
+    margin-bottom: 2%;
+}
+/*End*/
+
 ol, ul {
 	list-style: none;
 }
@@ -67,7 +99,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%; /* Adjusted width to match MVP design */
     margin: 0 auto;
 }
 
@@ -102,15 +134,95 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+    padding: 45% 0%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Added individual box CSS */
+.box1 {
+    width: 12.5%;
+    background: teal;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100%;
+    background: gold;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100%;
+    background: cadetblue;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100%;
+    background: coral;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100%;
+    background: crimson;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box6 {
+    width: 12.5%;
+    height: 100%;
+    background: forestgreen;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100%;
+    background: darkorchid;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100%;
+    background: hotpink;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100%;
+    background: indigo;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100%;
+    background: dodgerblue;
+    color: white;
+    margin: 20px 2.5%;
+    text-align: center;
+}
+/* End*/
+
 
 .bottom-content {
     display: flex;
