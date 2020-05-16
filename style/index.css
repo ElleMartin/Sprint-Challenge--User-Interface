@@ -233,20 +233,15 @@ flex-direction: row;
 margin-bottom: 5%;
 }
 
-.text-container-thatsno {
-width: 100%;
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-.thats { 
-width: 70%
+.thats, .no, .moon {
+    margin: 0% 7%;
 }
-
-.no {
-margin-left: -10%;
-margin-right: 5%;
-width: 
-}
-
 
 footer {
 width: 100%;
@@ -282,7 +277,7 @@ text-decoration: none;
 
 .top-content {
     flex-direction: column;
-    margin: 0% 1%;
+    margin: 0% 2%;
 }
 
 .top-content .text-container {
@@ -293,7 +288,7 @@ text-decoration: none;
     margin: 0% 10%;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 .box9, .box10 { /* Boxes 8 and 9 not adjusting */
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     padding: 15% 20%;
 }
 
@@ -302,24 +297,21 @@ text-decoration: none;
     margin-bottom: 0;
 }
 
-
-.text-container-thatsno {
-    display: flex;
-    flex-wrap: wrap;
+.bottom-content {
     width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.thats {
-    margin-left: 10%;
-}
-
-.no {
-    margin-left: 10%;
+.thats, .no, .moon {
+ width: 35%;
 }
 
 .moon {
-    width: 100%;
+    margin-top: 3%;
 }
+
 
 footer nav {
     width: 60%;
@@ -346,11 +338,15 @@ footer nav {
     align-items: center;
 }
 
+.nav a {
+    padding-bottom: 2%;
+}
+
 .boxes {
     margin: 0% 10%;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 .box9, .box10 { /* Boxes 8 and 9 not adjusting */
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     padding: 20% 30%;
 }
 
